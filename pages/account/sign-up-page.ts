@@ -40,10 +40,12 @@ export class SignUpPage extends BasePage {
     }
 
     async acceptTerms(): Promise<void> {
+        await this.acceptCookies();
         await this.termsCheckbox.click();
     }
 
     async clickCreateAccountButton(): Promise<void> {
+        await this.acceptCookies();
         await this.createAccountButton.click();
     }
 
