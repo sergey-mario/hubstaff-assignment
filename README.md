@@ -21,8 +21,8 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/sergey-mario/ui-donation-task.git
-    cd ui-donation-task
+    git clone https://github.com/sergey-mario/hubstaff-assignment.git
+    cd hubstaff-assignment
     ```
 
 2. Install dependencies:
